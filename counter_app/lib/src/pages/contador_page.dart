@@ -29,6 +29,8 @@ class _ContadorPageState extends State<ContadorPage> {
           child: Icon(Icons.add),
           onPressed: () {
             _conteo++;
+
+            setState(() {});
           }),
     );
   }
